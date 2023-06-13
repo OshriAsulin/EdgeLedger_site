@@ -1,0 +1,34 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 20vh;
+}
+
+.footer a {
+    color: #fff;
+    font-size: 30px;
+}
+
+.footer .social{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer a:hover{
+    color: #28a745;
+}
+.footer .social > * {
+/* margin-right: 30px; */
+}
+
+@media (max-width: 768px){
+    
+}
