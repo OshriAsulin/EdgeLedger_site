@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react'
 import '../styles/Navabar.css'
 const Navabar = () => {
 
-    const [scrollPos, setScrollPos] = useState(true);
+    const [scrollPos, setScrollPos] = useState(false);
 
 
     useEffect(() => {
         if (typeof window !== "undefined") {
             window.addEventListener("scroll", () => {
-                if (window.pageYOffset > 800) {
+                if (window.pageYOffset > 600) {
                     setScrollPos(true);
                 } else {
                     setScrollPos(false);
